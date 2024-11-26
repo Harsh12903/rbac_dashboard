@@ -26,7 +26,7 @@ Make sure you have Node.js installed on your machine. You can download it from [
 git clone https://github.com/Harsh12903/rbac_dashboard.git
 
 2. Navigate to the project directory:
-cd rbac-dashboard
+cd rbac_dashboard-main
 
 3. Install the dependencies:
 npm install
@@ -34,7 +34,9 @@ npm install
 4. Start the mock API server:
 npx json-server --watch db.json --port 5000
 
-5. Start the development server:
+6. Start the development server:
+   
+open the new terminal and run:
 npm run dev
 
 ### Usage
