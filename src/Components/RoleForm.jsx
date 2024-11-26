@@ -63,7 +63,7 @@ const RoleForm = ({ role, onClose, onRefresh }) => {
                         onChange={handleChange} 
                         placeholder="Role Name" 
                         required 
-                        className='border border-gray-400 p-[10px] mb-[10px] w-full' 
+                        className='border border-gray-400 text-black p-[10px] mb-[10px] w-full' 
                     />
 
                     {/* Permissions Checkboxes */}
