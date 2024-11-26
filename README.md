@@ -22,15 +22,22 @@ A simple Role-Based Access Control (RBAC) dashboard built with React and Vite. T
 Make sure you have Node.js installed on your machine. You can download it from [nodejs.org](https://nodejs.org/).
 
 ### Installation
+1. Clone the repository:
+git clone https://github.com/Harsh120903/rbac-dashboard.git
 
-1. Navigate to the project directory:
+2. Navigate to the project directory:
 cd rbac-dashboard
 
-2. Install the dependencies:
+3. Install the dependencies:
 npm install
 
-3. Start the mock API server:
+4. Start the mock API server:
 npx json-server --watch db.json --port 5000
 
-4. Start the development server:
+5. Start the development server:
 npm run dev
+
+### Usage
+Dashboard: Upon loading, you'll see an overview of the total number of users and roles.
+User Management: Click on "User Management" in the sidebar to add, edit, or delete users.
+Role Management: Click on "Role Management" in the sidebar to manage roles and their permissions.
