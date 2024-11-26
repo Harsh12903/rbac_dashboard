@@ -77,7 +77,7 @@ const UserForm = ({ user, onClose, onRefresh }) => {
                         onChange={handleChange} 
                         placeholder="Name" 
                         required 
-                        className="border border-gray-300 p-2 mb-3 w-full"
+                        className="border border-gray-300 text-black p-2 mb-3 w-full"
                     />
                     <input 
                         name="email" 
@@ -85,7 +85,7 @@ const UserForm = ({ user, onClose, onRefresh }) => {
                         onChange={handleChange} 
                         placeholder="Email" 
                         required 
-                        className="border border-gray-300 p-2 mb-3 w-full"
+                        className="border border-gray-300 text-black p-2 mb-3 w-full"
                     />
                     {error && <p className="text-red-500 text-sm mb-3">{error}</p>} {/* Display error message */}
                     <input 
@@ -94,7 +94,7 @@ const UserForm = ({ user, onClose, onRefresh }) => {
                         onChange={handleChange} 
                         placeholder="Role" 
                         required 
-                        className="border border-gray-300 p-2 mb-3 w-full"
+                        className="border border-gray-300 text-black p-2 mb-3 w-full"
                     />
                     <label className="flex items-center mb-3 text-white">
                         Active:
